@@ -4,8 +4,39 @@ layout: default
 
 {% include hero_area_2.html %}
 {% include services_2.html %}
-{% include portfolios_2.html %}
-{% include testimonials_2.html %}
-{% include count_down_2.html %}
+<!-- About Start -->
+<section class="section about overflow-hidden">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="about-img">
+					<img src="{{'/assets/images/about/chuah_portrait_image.webp' | relative_url}}" alt="" class="img-fluid w-100"/>
+					<div class="video-play">
+						<div class="play-bg">
+							<a class="popup-youtube" href="https://www.youtube.com/watch?v=jrkvirglgaQ"><i class="fa fa-play"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-7 offset-lg-1 mt-5 mt-md-0">
+				<span class="text-color h5 text-uppercase">About Us</span>
+				<h3 class="mb-4 mt-3">We care about<br>your dental health</h3>
+				<p>At Chuah Dental Clinic, we are committed to providing exceptional dental care and creating beautiful, 
+                    healthy smiles for our patients in Petaling Jaya and beyond. 
+                    With a team of highly skilled and compassionate dental professionals, cutting-edge technology, 
+                    and a patient-centric approach, we strive to make your dental experience as comfortable and stress-free as possible.</p>
+				<p class="mb-5">Our mission is simple: 
+                    to improve and maintain the oral health of our patients while enhancing their smiles. 
+                    We are dedicated to delivering top-quality dental services that are tailored to your individual needs. 
+                    Whether you require a routine check-up, restorative treatments, or cosmetic enhancements, 
+                    Chuah Dental Clinic is here to meet all your dental needs.</p>
+
+				<a href="https://wa.me/60195165678" class="btn btn-primary">Book an Appointment</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- About End -->
+
+{% include testimonials.html %}
 {% include blog.html %}
-{% include contact.html %}
