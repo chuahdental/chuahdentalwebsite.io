@@ -1,6 +1,6 @@
 ################## Hero Area #######################
 hero_area:
-  title : "Design Studio"
+  title : "Chuah Dental Clinic"
   image : "/assets/images/banner/banner-3.png"
   content : "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna.<br>aliqua enim ad minim veniam quis."
   button:
@@ -13,33 +13,30 @@ services:
   enable : true
   bg_image : "/assets/images/bg/feature-bg.png"
   item:
-  - name : "Brand Design"
+  - name : "Preventative Dentistry"
     icon : "ti-ruler-pencil"
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+    content : "Our preventive services include regular check-ups and cleanings to stop dental issues before they start."
     
-  - name : "Seo & Marketing"
+  - name : "Restorative Dentistry"
     icon : "ti-announcement"
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+    content : "We offer solutions like fillings and crowns to repair and restore damaged or decayed teeth effectively."
     
-  - name : "Creative Design"
+  - name : "Cosmetic Dentistry"
     icon : "ti-palette"
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+    content : "Transform your smile with our cosmetic treatments, from teeth whitening to veneers, for a stunning, confident look."
 
 ################## About ###########################
 about:
   enable : true
   subtitle : "About Us"
-  title : "We are Design & <br>Development Team."
+  title : "Healthy and <br>Perfect Smile."
   video_thumb : "/assets/images/about/about.jpg"
   video_url : "https://www.youtube.com/watch?v=jrkvirglgaQ"
-  content : "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat.duis aute irure.
-  
-
-  Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
-  "
+  content : "Keep your flawless smile with Chuah Dental Clinic’s top-notch dentistry team! 
+  Our trusted team offers everything from cleanings to cavity checks to ensure your oral health is in tip-top shape."
   button:
     enable : true
-    label : "Purchase now"
+    label : "Book Appointment"
     link : "/pricing"
 
 
@@ -88,37 +85,35 @@ skill:
 testimonial:
   enable : true
   subtitle : "testimonials"
-  title : "Our Clients Say"
+  title : "What Our Clients Say"
   item:
-  - name : "Liam Hughes"
+  - name : "Tenny Kok"
     designation : "Manager"
     image : "/assets/images/team/test-1.jpg"
-    content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim	veniam."
+    content : "Good dental services provided, been come here for a long time ago until now. Thanks doctor."
     
-  - name : "Liam Hughes"
-    designation : "Manager"
+  - name : "Bhandari Kanxo"
+    designation : "Designer"
     image : "/assets/images/team/test-2.jpg"
-    content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim	veniam."
+    content : "Doctor are very expert at giving his advice for my tooth pain. Will definitely come again to do my dental check up here. 
+    Nurse also very friendly and give a good instruction to take care of my tooth"
     
-  - name : "Liam Hughes"
-    designation : "Manager"
+  - name : "CHENG"
+    designation : "Developer"
     image : "/assets/images/team/test-3.jpg"
-    content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim	veniam."
-    
-  - name : "Liam Hughes"
-    designation : "Manager"
-    image : "/assets/images/team/test-1.jpg"
-    content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim	veniam."
-    
-  - name : "Liam Hughes"
-    designation : "Manager"
+    content : "I can guaranteed this dental clinic is the best in pj or klang valley. With reasonable price and excellent service provided. Thank u very much for Dr Chuah and his nurse team. Will come back soon for follow up.
+"
+  - name : "Bhandari Kanxo"
+    designation : "Designer"
     image : "/assets/images/team/test-2.jpg"
-    content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim	veniam."
+    content : "Doctor are very expert at giving his advice for my tooth pain. Will definitely come again to do my dental check up here. 
+    Nurse also very friendly and give a good instruction to take care of my tooth"
     
-  - name : "Liam Hughes"
-    designation : "Manager"
+  - name : "CHENG"
+    designation : "Developer"
     image : "/assets/images/team/test-3.jpg"
-    content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim	veniam."
+    content : "I can guaranteed this dental clinic is the best in pj or klang valley. With reasonable price and excellent service provided. Thank u very much for Dr Chuah and his nurse team. Will come back soon for follow up.
+"
 
 
 ###################### Clients ######################

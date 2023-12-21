@@ -1,51 +1,54 @@
 ######################### Hero Area ##############################
 hero_area:
-  background_image : "/assets/images/bg/banner-2.png"
-  subtitle: "MY NAME IS Jessica Alba"
-  title : "I am a creative <br>UI/UX Designer <br>from London."
-  content : "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
-  image : "/assets/images/banner/banner-img-2.png"
+  background_image : "/assets/images/bg/chuah_dental_banner.jpg"
+  subtitle: "WELCOME TO CHUAH DENTAL CLINIC"
+  title : "Transforming oral health,<br>one smile <br>at a time."
+  content : "We take pride in providing precision dentistry in a comfortable, stress-free environment, supported by our friendly team."
+  # image : "/assets/images/banner/banner-img-2.png"
   button:
     enable : true
-    label : "contact me"
-    link : "/contact"
+    label : "Book an Appointment"
+    link : "https://wa.me/60195165678"
 
 ########################### Service ##############################
 services:
-- title : "Brand Design"
+- title : "Preventative Dentistry"
   icon : "ti-ruler-pencil"
-  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
-
-- title : "Seo & Marketing"
+  content : "Our preventive services include regular check-ups and cleanings to stop dental issues before they start."
+  
+- title : "Restorative Dentistry"
   icon : "ti-announcement"
-  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
-
-- title : "Creative Design"
+  content : "We offer solutions like fillings and crowns to repair and restore damaged or decayed teeth effectively."
+  
+- title : "Cosmetic Dentistry"
   icon : "ti-palette"
-  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+  content : "Transform your smile with our cosmetic treatments, from teeth whitening to veneers, for a stunning, confident look."
+
 
 
 ########################### Testimonial ###########################
 testimonial:
   enable : true
-  title : "clients feedback"
+  title : "What our clients say"
   subtitle : "testimonials"
   bg_image : "/assets/images/bg/testimonial-bg.png"
   item:
-  - name : "Liam Hughes"
+  - name : "Tenny Kok"
     designation : "Manager"
     image : "/assets/images/team/test-1.jpg"
-    content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
+    content : "Good dental services provided, been come here for a long time ago until now. Thanks doctor."
     
-  - name : "Jane Austin"
+  - name : "Bhandari Kanxo"
     designation : "Designer"
     image : "/assets/images/team/test-2.jpg"
-    content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
+    content : "Doctor are very expert at giving his advice for my tooth pain. Will definitely come again to do my dental check up here. 
+    Nurse also very friendly and give a good instruction to take care of my tooth"
     
-  - name : "Liolane hussy"
+  - name : "CHENG"
     designation : "Developer"
     image : "/assets/images/team/test-3.jpg"
-    content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
+    content : "I can guaranteed this dental clinic is the best in pj or klang valley. With reasonable price and excellent service provided. Thank u very much for Dr Chuah and his nurse team. Will come back soon for follow up.
+"
 
 
 ######################## Fun facts ########################
