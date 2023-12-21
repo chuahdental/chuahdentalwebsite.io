@@ -1,0 +1,81 @@
+---
+layout: default
+header_image: "/assets/images/bg/about-bg-chuah-dental-clinic-pj.png"
+title: "General Dentistry"
+description: "Keep your flawless smile with Chuah Dental Clinic’s top-notch dentistry team! 
+Our trusted team offers everything from cleanings to cavity checks to ensure your oral health is in tip-top shape."
+---
+
+{% include page_header.html %}
+
+<!-- About Start -->
+<section class="section about overflow-hidden">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-7 offset-lg-1 mt-5 mt-md-0">
+				<span class="text-color h5 text-uppercase">Healthy and Perfect Smile</span>
+				<h3 class="mb-4 mt-3">Healthy &<br>Perfect Smile</h3>
+				<p>Preventing dental issues is the best approach, 
+					which is why our valued customers return for check-ups every six months at Chuah Dental Clinic in Petaling Jaya SS14. 
+					With regular visits, there's no need to fear the dentist's chair!</p>
+				<p class="mb-5">We look forward to meet you in person, and starting with a consultation to build a customized, 
+					reasonable and affordable dental plan that matches your specific needs. Contact Us today at 03-7957 0678 or 0195165678.</p>
+
+				<a href="https://wa.me/60195165678" class="btn btn-primary">Book an Appointment</a>
+			</div>
+
+			<div class="col-md-5">
+				<div class="about-img">
+					<img src="{{'/assets/images/about/about.jpg' | relative_url}}" alt="" class="img-fluid w-100"/>
+					<div class="video-play">
+						<div class="play-bg">
+							<a class="popup-youtube" href="https://www.youtube.com/watch?v=jrkvirglgaQ"><i class="fa fa-play"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- About End -->
+
+
+<!-- Portfolio  Start -->
+<section class="section portfolio-2">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-10 text-center">
+				<span class="h5 text-color text-uppercase">
+					my works
+				</span>
+				<h3 class="mb-5 mt-2">A collection of some recently completed projects, covering a wide range of design disciplines</h3>
+			</div>
+		</div>
+
+    <div class="row align-items-center mb-5">
+      	<div class="col-12 text-center">
+	        <div class="btn-group btn-group-toggle " data-toggle="buttons">
+	          <label class="btn border-0 active">
+	            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
+	          </label>
+	          <label class="btn border-0">
+	            <input type="radio" name="shuffle-filter" value="design" />UI/UX Design
+	          </label>
+	          <label class="btn border-0">
+	            <input type="radio" name="shuffle-filter" value="branding" />branding
+	          </label>
+	          <label class="btn border-0">
+	            <input type="radio" name="shuffle-filter" value="illustration" />Web Development
+	          </label>
+	           <label class="btn border-0">
+	            <input type="radio" name="shuffle-filter" value="photo" />Photography
+	          </label>
+	        </div>
+      </div>
+    </div>		
+    <div class="row shuffle-wrapper portfolio-gallery">
+      {% include portfolio_loop.html %}
+    </div>
+	</div>
+</section>
+<!-- Portfolio  End -->

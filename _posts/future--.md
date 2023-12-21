@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Memoriable Paris Girls Trip"
-date: 2019-12-08 20:37:13 +0600
-tags: warning
-categories: [warning]
+title: "Powerful Ways to Add Vibrant Colour to Your Life"
+date: 2019-12-06 20:37:13 +0600
+tags: technology 
+categories: [Technology]
 post_image: "/assets/images/blog/blog-11.jpg"
 author: "Themefisher"
 ---
