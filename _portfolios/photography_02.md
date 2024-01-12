@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: "Drawing"
-categories: ["Photography"]
+categories: ["Cosmetic Dentistry"]
 thumbnail: "/assets/images/portfolio/p-5.jpg"
 description: "consectetur elit sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ullamco laboris nisi aliquip commodo consequat.duis aute irure sint occae cat cupidatat"
 ---
