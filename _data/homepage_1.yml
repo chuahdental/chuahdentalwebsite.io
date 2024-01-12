@@ -13,15 +13,15 @@ hero_area:
 ########################### Service ##############################
 services:
 - title : "Preventative Dentistry"
-  icon : "ti-ruler-pencil"
+  icon : "ti-search"
   content : "Our preventive services include regular check-ups and cleanings to stop dental issues before they start."
   
 - title : "Restorative Dentistry"
-  icon : "ti-announcement"
+  icon : "ti-support"
   content : "We offer solutions like fillings and crowns to repair and restore damaged or decayed teeth effectively."
   
 - title : "Cosmetic Dentistry"
-  icon : "ti-palette"
+  icon : "ti-hummer"
   content : "Transform your smile with our cosmetic treatments, from teeth whitening to veneers, for a stunning, confident look."
 
 
@@ -33,13 +33,13 @@ testimonial:
   subtitle : "testimonials"
   bg_image : "/assets/images/bg/testimonial-bg.png"
   item:
-  - name : "Tenny Kok"
-    designation : "Manager"
+  - name : "Mohd Norzi"
+    designation : "Tooth extraction"
     image : "/assets/images/team/test-1.jpg"
-    content : "Good dental services provided, been come here for a long time ago until now. Thanks doctor."
+    content : "Great experience from Dr Chuah. Tooth extraction was done very professionally and pain-free, highly recommended."
     
   - name : "Bhandari Kanxo"
-    designation : "Designer"
+    designation : "Tooth pain"
     image : "/assets/images/team/test-2.jpg"
     content : "Doctor are very expert at giving his advice for my tooth pain. Will definitely come again to do my dental check up here. 
     Nurse also very friendly and give a good instruction to take care of my tooth"

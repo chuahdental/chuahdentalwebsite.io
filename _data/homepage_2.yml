@@ -87,34 +87,39 @@ testimonial:
   subtitle : "testimonials"
   title : "What Our Clients Say"
   item:
-  - name : "Tenny Kok"
-    designation : "Manager"
-    image : "/assets/images/team/test-1.jpg"
-    content : "Good dental services provided, been come here for a long time ago until now. Thanks doctor."
-    
-  - name : "Bhandari Kanxo"
-    designation : "Designer"
-    image : "/assets/images/team/test-2.jpg"
-    content : "Doctor are very expert at giving his advice for my tooth pain. Will definitely come again to do my dental check up here. 
-    Nurse also very friendly and give a good instruction to take care of my tooth"
-    
-  - name : "CHENG"
-    designation : "Developer"
-    image : "/assets/images/team/test-3.jpg"
-    content : "I can guaranteed this dental clinic is the best in pj or klang valley. With reasonable price and excellent service provided. Thank u very much for Dr Chuah and his nurse team. Will come back soon for follow up.
-"
-  - name : "Bhandari Kanxo"
-    designation : "Designer"
-    image : "/assets/images/team/test-2.jpg"
-    content : "Doctor are very expert at giving his advice for my tooth pain. Will definitely come again to do my dental check up here. 
-    Nurse also very friendly and give a good instruction to take care of my tooth"
-    
-  - name : "CHENG"
-    designation : "Developer"
-    image : "/assets/images/team/test-3.jpg"
-    content : "I can guaranteed this dental clinic is the best in pj or klang valley. With reasonable price and excellent service provided. Thank u very much for Dr Chuah and his nurse team. Will come back soon for follow up.
-"
+  - name : "Chan"
+    designation : "Local Customer"
+    image : "/assets/images/customers/C_2.png"
+    content : "Been here 12 years already. Feel good and very comfortable. Today come with my sister, she is first time see Doctor Chuah. 
+    Hope she feels okay and conformable too.👍 "
 
+  - name : "khalida kamaluddin"
+    designation : "Walk-in Customer"
+    image : "/assets/images/customers/k.png"
+    content : "I Came here after other clinic reject me. They accept walk in, but adviseable to call to check on their availability. Thank you Chuah dental clinic team for your hospitality🥰"  
+  
+  - name : "Mohd Norzi"
+    designation : "Tooth extraction"
+    image : "/assets/images/customers/M.png"
+    content : "Great experience from Dr Chuah. Tooth extraction was done very professionally and pain-free, highly recommended."
+    
+  - name : "Bhandari"
+    designation : "Tooth pain"
+    image : "/assets/images/customers/B.png"
+    content : "Doctor are very expert at giving his advice for my tooth pain. Will definitely come again to do my dental check up here. 
+    Nurse also very friendly and give a good instruction to take care of my tooth"
+    
+  - name : "CHENG"
+    designation : "New customer"
+    image : "/assets/images/customers/C.png"
+    content : "I can guaranteed this dental clinic is the best in pj or klang valley. With reasonable price and excellent service provided. Thank u very much for Dr Chuah and his nurse team. Will come back soon for follow up.
+"
+  - name : "Asniyah"
+    designation : "New customer"
+    image : "/assets/images/customers/A.png"
+    content : "Very pleasant experience during my first visit to see Dr Chuah. He is so gentle with the teeth cleaning and help me to ease my phobia to see a dentist. 
+    All staffs are so attentive and caring especially Ms.Ng who patient enough to give me clear information on my queries. Overall highly recommended!"
+    
 
 ###################### Clients ######################
 clients:
