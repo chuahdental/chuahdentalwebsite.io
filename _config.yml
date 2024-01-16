@@ -1,6 +1,6 @@
-baseurl: "/chuah-dental-clinic" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
-title: "Dizer -  Multipurpose Business & Corporate Jekyll Template"
+baseurl: "/chuahdentalwebsite.io # chuah-dental-clinic" # the subpath of your site, e.g. /blog
+url: "http://chuahdental.com.my/ # 127.0.0.1" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
+title: "Chuah Dental Clinic"
 email: "klinikpergigianchuah@yahoo.com"
 phone: "+60195165678"
 address: "(Above Domino Pizza) Chuah Dental Surgery, No.21A, Jalan 14/20, Section 14, 46100 Petaling jaya, Selangor. "
