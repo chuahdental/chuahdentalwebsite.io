@@ -31,8 +31,8 @@ main:
         url: /restorative-dentistry-with-chuah-dental-clinic.html
       - name: Cosmetic Dentistry
         url: /cosmetic-dentistry-with-chuah-dental-clinic.html
-      - name: 404
-        url: /404
+      # - name: 404
+      #   url: /404
   - name: Contact
     url: /contact.html
 
