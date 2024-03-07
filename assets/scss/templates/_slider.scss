@@ -4,7 +4,7 @@
   overflow: hidden;
 
   .banner-content {
-    padding: 250px 0 220px 0;
+    padding: 250px 0px 220px 0px;
 
     h2 {
       font-size: 100px;
@@ -19,10 +19,9 @@
   .banner-img {
     position: absolute;
     content: "";
-    bottom: 0;
+    bottom: 0px;
     right: 17%;
-
-    @media(max-width: 1400px) {
+    @media(max-width:1400px){
       right: 10%;
     }
 
@@ -31,54 +30,6 @@
     }
   }
 }
-
-/* Additional Media Query for Mobile Devices */
-@media (max-width: 768px) {
-  .banner {
-    /* Adjust the padding to reduce the vertical space on mobile */
-    .banner-content {
-      padding: 120px 0; /* Reduced padding for smaller screens */
-    }
-
-    h2 {
-      font-size: 10px; /* Smaller font size for the heading on mobile */
-      line-height: 60px;
-    }
-
-    p {
-      font-size: 10px; /* Slightly smaller font size for the paragraph */
-    }
-    
-    /* Optionally, adjust the banner image positioning or hide it */
-    .banner-img {
-      /* Example: Hide the image on smaller screens */
-      display: none;
-    }
-  }
-}
-
-/* Existing styles for .banner */
-
-@media (max-width: 768px) {
-  .banner {
-    /* Adjustments for mobile devices */
-    .banner-content {
-      padding: 120px 0; /* Example padding adjustment for smaller screens */
-    }
-
-    h2 {
-      font-size: 30px; /* Smaller font size for headings on mobile */
-      line-height: 40px; /* Adjust line-height accordingly */
-    }
-
-    p {
-      font-size: 12px; /* Smaller font size for paragraphs on mobile */
-    }
-
-    /* Other adjustments for .banner on mobile */
-  }
-}
-
 
 // Banner-2 Style
 
@@ -117,15 +68,15 @@
 
 @include mobile-xs {
   .banner .banner-content h2 {
-    font-size: 66px;
-    line-height: 86px;
+    font-size: 50px; 
+    line-height: 20px;
   }
 }
 
 @include mobile-xs {
   .banner .banner-content h2 {
-    font-size: 66px;
-    line-height: 86px;
+    font-size: 50px;
+    line-height: 10px;
   }
 }
 
