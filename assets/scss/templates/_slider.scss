@@ -92,10 +92,10 @@
 }
 
 
-@include mobile-xs {
+@include mobile {
   .banner .banner-content h2 {
-    font-size: 66px; 
-    line-height: 86px;
+    font-size: 50px; 
+    line-height: 50px;
   }
 }
 
