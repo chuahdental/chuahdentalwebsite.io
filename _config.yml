@@ -5,8 +5,8 @@ baseurl: ""
 title: "Chuah Dental Clinic"
 email: "klinikpergigianchuah@yahoo.com"
 phone: "+60195165678"
-address: "(Above Domino Pizza) Chuah Dental Surgery, No.21A, Jalan 14/20, Section 14, 46100 Petaling jaya, Selangor. "
-author: themefisher
+address: "Chuah Dental Surgery, <br> No.21A, Jalan 14/20, Section 14, 46100 Petaling Jaya, Selangor. (Opposite 7-11 and above Domino Pizza Section 14, PJ)"
+author: dr chuah
 description: >- # this means to ignore newlines
   Dizer - Multipurpose Business & Corporate Jekyll Template Jekyll Theme For Mobile Apps Download Landing Page And Blogging.
 logo: "/assets/images/logo.png"
