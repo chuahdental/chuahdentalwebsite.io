@@ -32,6 +32,54 @@
   }
 }
 
+/* Additional Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .banner {
+    /* Adjust the padding to reduce the vertical space on mobile */
+    .banner-content {
+      padding: 120px 0; /* Reduced padding for smaller screens */
+    }
+
+    h2 {
+      font-size: 50px; /* Smaller font size for the heading on mobile */
+      line-height: 60px;
+    }
+
+    p {
+      font-size: 15px; /* Slightly smaller font size for the paragraph */
+    }
+    
+    /* Optionally, adjust the banner image positioning or hide it */
+    .banner-img {
+      /* Example: Hide the image on smaller screens */
+      display: none;
+    }
+  }
+}
+
+/* Existing styles for .banner */
+
+@media (max-width: 768px) {
+  .banner {
+    /* Adjustments for mobile devices */
+    .banner-content {
+      padding: 120px 0; /* Example padding adjustment for smaller screens */
+    }
+
+    h2 {
+      font-size: 30px; /* Smaller font size for headings on mobile */
+      line-height: 40px; /* Adjust line-height accordingly */
+    }
+
+    p {
+      font-size: 12px; /* Smaller font size for paragraphs on mobile */
+    }
+
+    /* Other adjustments for .banner on mobile */
+  }
+}
+
+
 // Banner-2 Style
 
 .banner-2 {
