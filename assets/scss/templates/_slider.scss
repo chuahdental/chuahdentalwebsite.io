@@ -32,31 +32,6 @@
 }
 
 
-/* Additional Media Query for Mobile Devices */
-@media (max-width: 768px) {
-  .banner {
-    /* Adjust the padding to reduce the vertical space on mobile */
-    .banner-content {
-      padding: 120px 0; /* Reduced padding for smaller screens */
-    }
-
-    h2 {
-      font-size: 20px !important; /* Smaller font size for the heading on mobile */
-      line-height: 20px !important;
-    }
-
-    p {
-      font-size: 15px; /* Slightly smaller font size for the paragraph */
-    }
-    
-    /* Optionally, adjust the banner image positioning or hide it */
-    .banner-img {
-      /* Example: Hide the image on smaller screens */
-      display: none;
-    }
-  }
-}
-
 // Banner-2 Style
 
 .banner-2 {

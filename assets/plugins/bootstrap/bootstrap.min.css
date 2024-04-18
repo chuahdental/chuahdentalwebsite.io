@@ -1376,11 +1376,20 @@ pre code {
         max-width: 25%
     }
 
+    /* .col-lg-4 {
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%
+    } */
+
     .col-lg-4 {
-        -ms-flex: 0 0 33.333333%;
-        flex: 0 0 33.333333%;
-        max-width: 33.333333%
+        -ms-flex: 0 0 calc(33.333333% - 20px);  /* Adjusting for margin */
+        flex: 0 0 calc(33.333333% - 20px);  /* Adjusting for margin */
+        max-width: calc(33.333333% - 20px);  /* Adjusting for margin */
+        margin-right: 10px;  /* Margin on the right */
+        margin-left: 10px;  /* Margin on the left */
     }
+    
 
     .col-lg-5 {
         -ms-flex: 0 0 41.666667%;

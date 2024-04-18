@@ -24,10 +24,7 @@ description: "Let’s make your dental visit in Petaling Jaya as easy as possibl
 								<i class="ti-location-pin text-color"></i>
 								<div class="info">
 									<h4>Our Address</h4>
-									<p>Chuah Dental Surgery, 
-										No.21A, Jalan 14/20, Section 14, 
-										46100 Petaling jaya, Selangor. 
-										(Opposite 7-11 and above Domino Pizza Section 14, PJ)</p>
+									<p><a href="https://waze.com/ul/hw2838y1j6">{{site.address}}</a></p>
 								</div>
 							</div>
 						</div>
@@ -36,7 +33,7 @@ description: "Let’s make your dental visit in Petaling Jaya as easy as possibl
 								<i class="ti-mobile text-color"></i>
 								<div class="info">
 									<h4>Contact Us</h4>
-									<p>(+6) 03-7957 0678<br>(+6) 019-516 5678<br>klinikpergigianchuah@yahoo.com</p>
+									<p>(+6) 03-7957 0678<br><a href="tel:{{site.phone}}">{{site.phone}}</a><br><a href="mailto:{{site.email}}">{{site.email}}</a></p>
 								</div>
 							</div>
 						</div>
@@ -147,3 +144,7 @@ description: "Let’s make your dental visit in Petaling Jaya as easy as possibl
 </section>
 
 {% include call_to_action.html %}
+
+<a href="https://wa.me/60195165678" class="whatsapp-float" target="_blank">
+    <img src="{{'/assets/images/whatsapp_icon.png' | relative_url}}" alt="WhatsApp" style="width:100%; height:100%;">
+</a>
