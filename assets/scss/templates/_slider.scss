@@ -1,6 +1,7 @@
 .banner {
   background: url("../images/banner/banner.jpg") center center no-repeat;
   background-size: cover;
+  
   overflow: hidden;
 
   .banner-content {
@@ -31,15 +32,19 @@
   }
 }
 
-
-// Banner-2 Style
-
 .banner-2 {
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 50px;  // This may need adjustment based on your design needs
+  background-position: center center;  // Ensures the background image is centered
+  background-size: cover;  // Ensures the image covers the full area without repeating
+  background-repeat: no-repeat;  // Prevents the background image from repeating
+  min-height: 500px;  // Minimum height to prevent image compression
 
   .banner-content-2 {
-    padding: 180px 0px 120px 0px;
+    padding: 180px 0px 120px 0px;  // Ample padding to position the content appropriately
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     @include desktop-lg {
       padding: 150px 0 100px 0;
     }
@@ -52,84 +57,22 @@
         line-height: 60px;
       }
     }
-  }
 
-  p {
-    color: rgba(255, 255, 255, .7);
-    padding-right: 55px;
-    font-size: 17px;
-  }
+    p {
+      color: rgba(255, 255, 255, .7);
+      padding-right: 55px;
+      font-size: 17px;
+    }
 
-  .btn:hover {
-    background: $white;
-    color: $black !important;
-  }
-}
-
-
-@include mobile {
-  .banner .banner-content h2 {
-    font-size: 50px !important; 
-    line-height: 50px !important;
-  }
-}
-
-@include mobile-xs {
-  .banner .banner-content h2 {
-    font-size: 66px;
-    line-height: 86px;
-  }
-}
-
-@include desktop {
-  .banner .banner-content h2 {
-    font-size: 85px;
-    line-height: 100px;
-  }
-
-  .about-banner {
-    background-position: 40% 50%;
+    .btn:hover {
+      background: $white;
+      color: $black !important;
+    }
   }
 }
 
 
-
-// .banner {
-//   background: url("../images/banner/banner.jpg") center center no-repeat;
-//   background-size: cover;
-  
-//   overflow: hidden;
-
-//   .banner-content {
-//     padding: 250px 0px 220px 0px;
-
-//     h2 {
-//       font-size: 100px;
-//       line-height: 100px;
-//     }
-
-//     p {
-//       font-size: 17px;
-//     }
-//   }
-
-//   .banner-img {
-//     position: absolute;
-//     content: "";
-//     bottom: 0px;
-//     right: 17%;
-//     @media(max-width:1400px){
-//       right: 10%;
-//     }
-
-//     @include desktop-lg {
-//       right: -10%;
-//     }
-//   }
-// }
-
-
-// // Banner-2 Style
+// Banner-2 Style
 
 // .banner-2 {
 //   overflow: hidden;
@@ -167,56 +110,56 @@
 // }
 
 
-// // @include mobile {
-// //   background-position: top center; // Adjust the focus of the background image
-// //   .banner .banner-content h2 {
-// //     font-size: 50px !important; 
-// //     line-height: 50px !important;
-// //   }
-// // }
-
-// // @include mobile-xs {
-// //   .banner .banner-content h2 {
-// //     font-size: 66px;
-// //     line-height: 86px;
-// //   }
-// // }
-
-// // @include desktop {
-// //   .banner .banner-content h2 {
-// //     font-size: 85px;
-// //     line-height: 100px;
-// //   }
-
-// //   .about-banner {
-// //     background-position: 40% 50%;
-// //   }
-// // }
-
-// // Mobile devices (small screens)
 // @include mobile {
-//   .banner-2 .banner-content-2 h2 {
-//     font-size: 30px; // Smaller font for mobile
-//     line-height: 40px; // Adjusted line height for mobile
+//   background-position: top center; // Adjust the focus of the background image
+//   .banner .banner-content h2 {
+//     font-size: 50px !important; 
+//     line-height: 50px !important;
 //   }
 // }
 
-// // Extra small mobile devices (very small screens)
 // @include mobile-xs {
-//   .banner-2 .banner-content-2 h2 {
-//     font-size: 24px; // Even smaller font for extra small screens
-//     line-height: 34px;
+//   .banner .banner-content h2 {
+//     font-size: 66px;
+//     line-height: 86px;
 //   }
 // }
 
-// // Desktop devices (large screens)
 // @include desktop {
-//   .banner-2 .banner-content-2 h2 {
-//     font-size: 60px; // Larger font for desktop
-//     line-height: 70px;
+//   .banner .banner-content h2 {
+//     font-size: 85px;
+//     line-height: 100px;
 //   }
 
 //   .about-banner {
-//     background-position: 40% 50%; // Specific background position for large screens
+//     background-position: 40% 50%;
 //   }
 // }
+
+// Mobile devices (small screens)
+@include mobile {
+  .banner-2 .banner-content-2 h2 {
+    font-size: 30px; // Smaller font for mobile
+    line-height: 40px; // Adjusted line height for mobile
+  }
+}
+
+// Extra small mobile devices (very small screens)
+@include mobile-xs {
+  .banner-2 .banner-content-2 h2 {
+    font-size: 24px; // Even smaller font for extra small screens
+    line-height: 34px;
+  }
+}
+
+// Desktop devices (large screens)
+@include desktop {
+  .banner-2 .banner-content-2 h2 {
+    font-size: 60px; // Larger font for desktop
+    line-height: 70px;
+  }
+
+  .about-banner {
+    background-position: 40% 50%; // Specific background position for large screens
+  }
+}
