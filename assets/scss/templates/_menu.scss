@@ -120,7 +120,7 @@
 }
 
 .dropdown-item:hover {
-  background: $secondary-color;
+  background: $black;
   color: $white !important;
 }
 
@@ -191,6 +191,7 @@
   .navbar-collapse {
     text-align: center;
     padding: 20px;
+    background-color: $primary-color; 
   }
 
   #main-nav .navbar-nav .nav-link {
@@ -202,6 +203,7 @@
   .navbar-collapse {
     text-align: center;
     padding: 20px;
+    background-color: $primary-color; 
   }
 
   #main-nav .navbar-nav .nav-link {
@@ -217,6 +219,7 @@
   .navbar-collapse {
     text-align: center;
     padding: 20px;
+    background-color: $primary-color; 
   }
 
   #main-nav .navbar-nav .nav-link {
