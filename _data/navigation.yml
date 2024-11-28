@@ -18,8 +18,8 @@ main:
     #     url: /about.html
     #   - name: About Me
     #     url: /about-me.html # if dw anything"#"
-  - name: Blog
-    url: /blog-1.html
+  #- name: Blog
+  #  url: /blog-1.html
   - name: Services
     url: /services.html
     submenu:
