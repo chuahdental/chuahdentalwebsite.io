@@ -17,34 +17,14 @@
 					</ul>
 				</div>
 			</div>
-
-			<div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0 col-md-6">
-				<div class="footer-widget">
-					<h4 class="text-white mb-3">Navigation</h4>
-
-					<ul class="list-unstyled lh-38">
-						{% for menu in site.data.navigation.footer %}
-						<li><a href="{{menu.link | relative_url }}">{{menu.name}}</a></li>
-						{% endfor %}
-					</ul>
-				</div>
-			</div>		
-			<div class="col-lg-2 col-md-6">
-				<div class="footer-widget  mb-5 mb-lg-0">
-					<h4 class="text-white mb-3">Services</h4>
-					<ul class="list-unstyled lh-38">
-						<li><a href="#">Preventative Dentistry</a></li>
-						<li><a href="#">Restorative Dentistry</a></li>
-						<li><a href="#">Cosmetic Dentistry</a></li>
-					</ul>
-				</div>
-			</div>		
+			
 			<div class="col-lg-3 col-md-6">
 				<div class="footer-widget">
 					<h4 class="text-white mb-3">Contact Info</h4>
 					<ul class="list-unstyled lh-38">
 						<li><a href="https://waze.com/ul/hw2838y1j6">{{site.address}}</a></li>
 						<li><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
+						<li><a href="tel:{{site.phone2}}">{{site.phone2}}</a></li>
 						<li><a href="mailto:{{site.email}}">{{site.email}}</a></li>
 					</ul>
 				</div>
