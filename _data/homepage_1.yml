@@ -1,8 +1,8 @@
 ######################### Hero Area ##############################
 hero_area:
   background_image : "/assets/images/bg/hero_tooth_bg.jpg"
-  subtitle: "WELCOME TO CHUAH DENTAL CLINIC"
-  title : "Transforming oral health,<br>one smile <br>at a time."
+  title: "WELCOME TO CHUAH DENTAL CLINIC"
+  subtitle : "Transforming oral health,<br>one smile<br>at a time."
   content : "We take pride in providing precision dentistry in a comfortable, stress-free environment, supported by our friendly team."
   # image : "/assets/images/banner/banner-img-2.png"
   button:
